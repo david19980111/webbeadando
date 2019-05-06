@@ -1,0 +1,111 @@
+body{
+    background-image: url('img/csgo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    width: 700px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+li{
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+    color: green;
+}
+a:checked{
+    text-decoration: none;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+.info{
+    width: 200px;
+}
+p.center{
+text-align: center;
+}
+table{
+    border: 1px solid;
+}
+td.menu{
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    width: 160px;
+    background-color: #999;
+    border: 1.5px solid;
+}
+td.header{
+    background-color: #000;
+}
+td.tartalom{
+    background-color: #AAA;
+}
+#google {
+    text-align: center;
+    color: Blue;
+}
+footer {
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-family: "Tempus Sans ITC";
+    background-color: #000;
+    max-width: 800px;
+}
+h2, h4, hr {
+    margin: 5px 15px 5px 0px;
+}
+h4.inside {
+    margin: 0px;
+}
+div.box {
+    float: left;
+    margin-right: 15px;
+    padding: 0 0 5px 0;
+    width: 225px;
+}
+div.long {
+    width: 100%;
+    max-width: 465px;
+}
+div.nomargin {
+    margin-right: 0px;
+    width: auto;
+}
+div.submit {
+    margin-top: 15px;
+}
+div.separator {
+    clear: both;
+}
+input[type="text"], select, textarea {
+    display: block;
+    border-top: inset;
+}
+input[type="text"].long {
+    width: 98%;
+    max-width: 455px;
+}
+input[type="text"].short, select, textarea {
+    width: 217px;
+}
+textarea {
+    height: 75px;
+}
